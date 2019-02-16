@@ -56,7 +56,7 @@ typedef union Prop {
 typedef struct WHandle {
 	map<string, Prop> props;
 	map<Uint, cbfunc> cbfuncs;
-	uint16_t win_params; // bit mask
+	uint32_t win_params; // bit mask
 	uint wtype; // widget type(window,label,button,...)
 	uint64_t wid;
 	HWND hLink;

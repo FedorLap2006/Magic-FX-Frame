@@ -5,5 +5,6 @@ OUTDIR =
 
 
 lib:
-	 -c *.cpp
+	$(CC) -c *.cpp
 	ar rc libMFF.a *.o
+	rm *.o

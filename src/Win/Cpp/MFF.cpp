@@ -1,7 +1,7 @@
 #include "MFF.hpp"
 
 // Widget::Widget(Widget *parent){
-	
+
 // }
 Widget::Widget(Widget *parent,uint wt){
 	if (parent == NULL) {
